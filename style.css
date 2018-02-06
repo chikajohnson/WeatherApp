@@ -1,0 +1,21 @@
+body {
+  padding-top: 20px;
+}
+
+.footer {
+  width:50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
